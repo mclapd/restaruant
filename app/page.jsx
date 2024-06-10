@@ -1,5 +1,9 @@
+import About from "@/components/About";
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import Map from "@/components/Map";
+import Reservation from "@/components/Reservation";
 import StyleGuide from "@/components/StyleGuide";
 import Menu from "@/components/menu";
 
@@ -9,8 +13,12 @@ export default function Home() {
       <Header />
       <Hero />
       <Menu />
+      <Reservation />
+      <About />
+      <Map />
+      <Footer />
       {/* <StyleGuide /> */}
-      <div className="h-[4000px]"></div>
+      {/* <div className="h-[400px]"></div> */}
     </main>
   );
 }

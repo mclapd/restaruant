@@ -1,6 +1,6 @@
 "use client";
 
-import * as React from "react";
+import { useState } from "react";
 import { format } from "date-fns";
 import { Calendar as CalendarIcon } from "lucide-react";
 
@@ -26,7 +26,7 @@ import {
 } from "@/components/ui/select";
 
 const StyleGuide = () => {
-  const [date, setDate] = React.useState(new Date());
+  const [date, setDate] = useState(new Date());
 
   return (
     <>
